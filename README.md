@@ -5,6 +5,7 @@ A small empty totaljs project integrated with typescript, for reference.
 
 1. `npm install -g typescript` to install typescript
 2. `npm install` to install all the dependencies
+3. `tsc --build` to build the project for the first time
 
 ## Usage
 
