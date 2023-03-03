@@ -1,0 +1,20 @@
+@{section head}
+  <title>This title comes from example2.html</title>
+@{end}
+
+@{section js}
+  <script>
+    console.log("This javascript comes from a tag inside example2.html");
+  </script>
+  <script src="/js/example.js"></script>
+@{end}
+
+<p>
+  This text comes from example2.html
+
+  Check the development console, there might be something there...
+</p>
+
+@{section footer}
+  <p> This part of the footer comes from example2.html
+@{end}

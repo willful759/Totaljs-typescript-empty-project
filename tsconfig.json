@@ -1,0 +1,19 @@
+{
+  "include": ["src"],
+  "exclude": [],
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "node16",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "outDir": ".",
+    "rootDir": "src",
+
+    "watch": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "noFallthroughCasesInSwitch": true,
+  },
+}

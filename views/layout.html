@@ -1,0 +1,25 @@
+<head>
+  @{section('head')}
+  @{section('js')}
+</head>
+<body>
+  <div style="text-align:center;">
+    This text comes from the layout
+  </div>
+  <nav>
+    <ul>
+      <li><a href="/example1">Example 1</a></li>
+      <li><a href="/example2">Example 2</a></li>
+    </ul>
+  </nav>
+  <main>
+    <p>
+      go to the <a href="https://docs.totaljs.com/total4/"> Totaljs documentation </a> for more info on how to use the framwork
+    </p>
+    @{body}
+  </main>
+</body>
+<footer>
+  This part of the footer comes from the layout
+  @{section('footer')}
+</footer>
