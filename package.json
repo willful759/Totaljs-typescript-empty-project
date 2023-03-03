@@ -5,7 +5,6 @@
   },
   "scripts": {
     "debug": "tsc --build && tsc -w & node index.js",
-    "debug-no-w": "tsc --build && node index.js",
-    "release": "tsc --build && node index.js -m release"
+    "debug-no-w": "tsc --build && node index.js"
   }
 }
