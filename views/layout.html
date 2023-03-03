@@ -1,25 +1,28 @@
 <head>
   @{section('head')}
+  <!-- dumb hack to allow compilation of ts files for the client -->
+  <script> var exports = {}; </script>
   @{section('js')}
 </head>
 <body>
   <div style="text-align:center;">
-    This text comes from the layout
+    <h1>This text comes from the layout</h1>
   </div>
   <nav>
     <ul>
+      <li><a href="/">Home</a></li>
       <li><a href="/example1">Example 1</a></li>
       <li><a href="/example2">Example 2</a></li>
     </ul>
   </nav>
-  <main>
+  <main style="text-align:center;">
     <p>
       go to the <a href="https://docs.totaljs.com/total4/"> Totaljs documentation </a> for more info on how to use the framwork
     </p>
     @{body}
   </main>
 </body>
-<footer>
+<footer style="text-align:center;color:grey;">
   This part of the footer comes from the layout
   @{section('footer')}
 </footer>

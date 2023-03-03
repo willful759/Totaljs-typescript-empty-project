@@ -1,6 +1,9 @@
 {
   "include": ["src"],
   "exclude": [],
+  "references": [
+    {"path": "src/public/js"}
+  ],
   "compilerOptions": {
     "target": "es2017",
     "module": "node16",
