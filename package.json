@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@types/node": "^18.14.2",
-    "total4": "^0.0.78"
+    "total4": "^0.0.82"
   },
   "scripts": {
     "debug": "tsc -w & node index.js",
